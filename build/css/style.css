@@ -282,7 +282,10 @@ input:checked + .slide::before {
     display: flex;
     flex-direction: column;
 }
-
+.date {
+    font-size: 14px;
+    color: #525252;
+}
 @media (max-width: 860px) {
     .row {
         display: flex;
