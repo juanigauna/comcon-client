@@ -286,6 +286,31 @@ input:checked + .slide::before {
     font-size: 14px;
     color: #525252;
 }
+.likes-stats {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 5px;
+    cursor: pointer;
+    transition: 50ms;
+}
+.liked {
+    color: rgb(235, 52, 52)
+}
+.load-more-button {
+    height: 30px;
+    background: #232323;
+    border-color: #232323;
+    align-self: center;
+}
+.load-more-button:hover {
+    background: #292929;
+    border-color: #292929;
+}
+.load-more-button:active {
+    background: #202020;
+    border-color: #202020;
+}
 @media (max-width: 860px) {
     .row {
         display: flex;
